@@ -1,2 +1,4 @@
 # listaexejava
-Lista 1 de exercícios Java
+Exercícios Java
+Prof Giovanni Vicente
+Let's Code
