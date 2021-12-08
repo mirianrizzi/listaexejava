@@ -8,16 +8,14 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Insira a cotação do dólar");
+        System.out.println("Insira a cotação do dólar: ");
         double rate = scan.nextDouble();
-        System.out.println("Insira o valor a ser convertido para reais");
+        System.out.println("Insira o valor em reais para ser convertido: ");
         double amount = scan.nextDouble();
 
-        double converter = rate * amount;
+        double converter = amount / rate;
 
-
-        System.out.printf("O valor em reais é de %.2f", converter);
-
+        System.out.printf("O valor será convertido em  USD %.2f", converter);
 
     }
 }
